@@ -1,0 +1,32 @@
+{
+  "peliculas": [
+    {
+      "id": "1",
+      "titulo": "The First Slam Dunk (2022)",
+      "director": "Takehiko Inoue",
+      "puntuacion": 7.8,
+      "nacionalidad": "Japón"
+    },
+    {
+      "id": "2",
+      "titulo": "As bestas (2022)",
+      "director": "Rodrigo Sorogoyen",
+      "puntuacion": 7.6,
+      "nacionalidad": "España"
+    },
+    {
+      "id": "3",
+      "titulo": "El regreso de las golondrinas (2022)",
+      "director": "Li Ruijun",
+      "puntuacion": 7.6,
+      "nacionalidad": "China"
+    },
+    {
+      "id": "4",
+      "titulo": "La lista de Schindler (1993)",
+      "director": "Steven Spielberg",
+      "puntuacion": 8.6,
+      "nacionalidad": "Estados Unidos"
+    }
+  ]
+}
