@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Union
 
+#python -m uvicorn main:app --reload
 
 app = FastAPI()
 
@@ -69,7 +70,16 @@ async def add_film(newFilm: Film):
     if type(search_films(newFilm.id)) == Film:
         return { "error": "This film arlready exists"}
     else:
-        films_list.append(newFilm)
+        add_film(newFilm)
+
+@app.put("/updatefilm/")
+async def update_film(newFilm: Film):
+    update_film(newFilm)
+
+
+def update_film(updateFilm: Film):
+
+    films_list[updateFilm.id - 1 ] = updateFilm
 
 
 def search_films(id: int):
