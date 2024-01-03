@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "FastAI - MongoDB",
+    "dateExported": "2024-01-02T16:55:00.430Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f2313590-4dc5-466c-bb37-5979764b2894",
+            "colId": "571d6b85-5288-4b7e-bea8-6156b808d071",
+            "containerId": "",
+            "name": "Add Film DB",
+            "url": "http://127.0.0.1:8000/db/addfilm",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-01-02T12:06:02.513Z",
+            "modified": "2024-01-02T13:14:59.051Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":\"\",\n  \"titulo\": \"La lista de Schindler (1993)\",\n  \"director\": \"Steven Spielberg\",\n  \"puntuacion\": 8.6,\n  \"nacionalidad\": \"Estados Unidos\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f32d8a6a-74f9-411e-9dc0-b968c6e547e1",
+            "colId": "571d6b85-5288-4b7e-bea8-6156b808d071",
+            "containerId": "",
+            "name": "Get films DB",
+            "url": "http://127.0.0.1:8000/db/films",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-01-02T13:29:23.750Z",
+            "modified": "2024-01-02T13:34:01.830Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d27c4f31-0cef-4861-827e-bc9c4789e6f8",
+            "colId": "571d6b85-5288-4b7e-bea8-6156b808d071",
+            "containerId": "",
+            "name": "Get films DB by Id",
+            "url": "http://127.0.0.1:8000/db/films/659407b9053cc1b412a2a3d7",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-01-02T13:33:35.611Z",
+            "modified": "2024-01-02T13:33:35.611Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4301fd3a-86bf-4dbd-aa27-ecc3432cf5f6",
+            "colId": "571d6b85-5288-4b7e-bea8-6156b808d071",
+            "containerId": "",
+            "name": "Delete film DB by Id",
+            "url": "http://127.0.0.1:8000/db/deletefilm/659407b9053cc1b412a2a3d7",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-01-02T13:45:06.480Z",
+            "modified": "2024-01-02T13:45:40.950Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fc1d2016-51d0-455f-bb47-9826523a6ed7",
+            "colId": "571d6b85-5288-4b7e-bea8-6156b808d071",
+            "containerId": "",
+            "name": "Update films Copy",
+            "url": "http://127.0.0.1:8000/db/updatefilm/",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-01-02T13:54:07.037Z",
+            "modified": "2024-01-02T13:54:43.310Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":\"65941566537764699aee6326\",\n  \"titulo\": \"La lista de Schindler (1993)\",\n  \"director\": \"Steven Spielberg\",\n  \"puntuacion\": 8.8,\n  \"nacionalidad\": \"Estados Unidos\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

@@ -1,32 +1,380 @@
-{
-  "peliculas": [
-    {
-      "id": "1",
-      "titulo": "The First Slam Dunk (2022)",
-      "director": "Takehiko Inoue",
-      "puntuacion": 7.8,
-      "nacionalidad": "Japón"
-    },
-    {
-      "id": "2",
-      "titulo": "As bestas (2022)",
-      "director": "Rodrigo Sorogoyen",
-      "puntuacion": 7.6,
-      "nacionalidad": "España"
-    },
-    {
-      "id": "3",
-      "titulo": "El regreso de las golondrinas (2022)",
-      "director": "Li Ruijun",
-      "puntuacion": 7.6,
-      "nacionalidad": "China"
-    },
-    {
-      "id": "4",
-      "titulo": "La lista de Schindler (1993)",
-      "director": "Steven Spielberg",
-      "puntuacion": 8.6,
-      "nacionalidad": "Estados Unidos"
-    }
-  ]
-}
+[
+  {
+    "_id": "1",
+    "titulo": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "puntuacion": "9.2",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "2",
+    "titulo": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "puntuacion": "9.1",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "3",
+    "titulo": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "puntuacion": "9.0",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "4",
+    "titulo": "The Godfather: Part II",
+    "director": "Francis Ford Coppola",
+    "puntuacion": "9.0",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "5",
+    "titulo": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "puntuacion": "8.9",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "6",
+    "titulo": "Schindler's List",
+    "director": "Steven Spielberg",
+    "puntuacion": "8.9",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "7",
+    "titulo": "12 Angry Men",
+    "director": "Sidney Lumet",
+    "puntuacion": "8.9",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "8",
+    "titulo": "The Lord of the Rings: The Return of the King",
+    "director": "Peter Jackson",
+    "puntuacion": "8.9",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "9",
+    "titulo": "Fight Club",
+    "director": "David Fincher",
+    "puntuacion": "8.8",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "10",
+    "titulo": "The Lord of the Rings: The Fellowship of the Ring",
+    "director": "Peter Jackson",
+    "puntuacion": "8.8",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "11",
+    "titulo": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "puntuacion": "8.8",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "12",
+    "titulo": "Inception",
+    "director": "Christopher Nolan",
+    "puntuacion": "8.7",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "13",
+    "titulo": "The Lord of the Rings: The Two Towers",
+    "director": "Peter Jackson",
+    "puntuacion": "8.7",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "14",
+    "titulo": "Star Wars: Episode V - The Empire Strikes Back",
+    "director": "Irvin Kershner",
+    "puntuacion": "8.7",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "15",
+    "titulo": "The Matrix",
+    "director": "Lana Wachowski",
+    "puntuacion": "8.6",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "16",
+    "titulo": "Goodfellas",
+    "director": "Martin Scorsese",
+    "puntuacion": "8.6",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "17",
+    "titulo": "One Flew Over the Cuckoo's Nest",
+    "director": "Milos Forman",
+    "puntuacion": "8.6",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "18",
+    "titulo": "Seven Samurai",
+    "director": "Akira Kurosawa",
+    "puntuacion": "8.6",
+    "nacionalidad": "Japan"
+  },
+  {
+    "_id": "19",
+    "titulo": "Se7en",
+    "director": "David Fincher",
+    "puntuacion": "8.6",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "20",
+    "titulo": "Life Is Beautiful",
+    "director": "Roberto Benigni",
+    "puntuacion": "8.6",
+    "nacionalidad": "Italy"
+  },
+  {
+    "_id": "21",
+    "titulo": "City of God",
+    "director": "Fernando Meirelles",
+    "puntuacion": "8.6",
+    "nacionalidad": "Brazil"
+  },
+  {
+    "_id": "22",
+    "titulo": "The Silence of the Lambs",
+    "director": "Jonathan Demme",
+    "puntuacion": "8.6",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "23",
+    "titulo": "It's a Wonderful Life",
+    "director": "Frank Capra",
+    "puntuacion": "8.6",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "24",
+    "titulo": "Star Wars: Episode IV - A New Hope",
+    "director": "George Lucas",
+    "puntuacion": "8.6",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "25",
+    "titulo": "Saving Private Ryan",
+    "director": "Steven Spielberg",
+    "puntuacion": "8.5",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "26",
+    "titulo": "Spirited Away",
+    "director": "Hayao Miyazaki",
+    "puntuacion": "8.5",
+    "nacionalidad": "Japan"
+  },
+  {
+    "_id": "27",
+    "titulo": "The Green Mile",
+    "director": "Frank Darabont",
+    "puntuacion": "8.5",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "28",
+    "titulo": "Interstellar",
+    "director": "Christopher Nolan",
+    "puntuacion": "8.5",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "29",
+    "titulo": "Parasite",
+    "director": "Bong Joon Ho",
+    "puntuacion": "8.5",
+    "nacionalidad": "South Korea"
+  },
+  {
+    "_id": "30",
+    "titulo": "Léon: The Professional",
+    "director": "Luc Besson",
+    "puntuacion": "8.5",
+    "nacionalidad": "France"
+  },
+  {
+    "_id": "31",
+    "titulo": "Hara-Kiri",
+    "director": "Masaki Kobayashi",
+    "puntuacion": "8.5",
+    "nacionalidad": "Japan"
+  },
+  {
+    "_id": "32",
+    "titulo": "The Usual Suspects",
+    "director": "Bryan Singer",
+    "puntuacion": "8.5",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "33",
+    "titulo": "Harakiri",
+    "director": "Masaki Kobayashi",
+    "puntuacion": "8.5",
+    "nacionalidad": "Japan"
+  },
+  {
+    "_id": "34",
+    "titulo": "Back to the Future",
+    "director": "Robert Zemeckis",
+    "puntuacion": "8.5",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "35",
+    "titulo": "Rear Window",
+    "director": "Alfred Hitchcock",
+    "puntuacion": "8.5",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "36",
+    "titulo": "Terminator 2: Judgment Day",
+    "director": "James Cameron",
+    "puntuacion": "8.5",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "37",
+    "titulo": "Coco",
+    "director": "Lee Unkrich",
+    "puntuacion": "8.4",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "38",
+    "titulo": "Whiplash",
+    "director": "Damien Chazelle",
+    "puntuacion": "8.4",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "39",
+    "titulo": "The Lion King",
+    "director": "Roger Allers",
+    "puntuacion": "8.4",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "40",
+    "titulo": "The Pianist",
+    "director": "Roman Polanski",
+    "puntuacion": "8.4",
+    "nacionalidad": "France"
+  },
+  {
+    "_id": "41",
+    "titulo": "American History X",
+    "director": "Tony Kaye",
+    "puntuacion": "8.4",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "42",
+    "titulo": "The Departed",
+    "director": "Martin Scorsese",
+    "puntuacion": "8.4",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "43",
+    "titulo": "Gladiator",
+    "director": "Ridley Scott",
+    "puntuacion": "8.4",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "44",
+    "titulo": "Apocalypse Now",
+    "director": "Francis Ford Coppola",
+    "puntuacion": "8.4",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "45",
+    "titulo": "Alien",
+    "director": "Ridley Scott",
+    "puntuacion": "8.4",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "46",
+    "titulo": "Memento",
+    "director": "Christopher Nolan",
+    "puntuacion": "8.4",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "47",
+    "titulo": "The Great Dictator",
+    "director": "Charlie Chaplin",
+    "puntuacion": "8.4",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "48",
+    "titulo": "Sunset Blvd.",
+    "director": "Billy Wilder",
+    "puntuacion": "8.4",
+    "nacionalidad": "USA"
+  },
+  {
+    "_id": "49",
+    "titulo": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "director": "Stanley Kubrick",
+    "puntuacion": "8.4",
+    "nacionalidad": "UK"
+  },
+  {
+    "_id": "50",
+    "titulo": "Cinema Paradiso",
+    "director": "Giuseppe Tornatore",
+    "puntuacion": "8.4",
+    "nacionalidad": "Italy"
+  },
+  {
+    "_id": "51",
+    "titulo": "The First Slam Dunk (2022)",
+    "director": "Takehiko Inoue",
+    "puntuacion": 7.8,
+    "nacionalidad": "Japón"
+  },
+  {
+    "_id": "52",
+    "titulo": "As bestas (2022)",
+    "director": "Rodrigo Sorogoyen",
+    "puntuacion": 7.6,
+    "nacionalidad": "España"
+  },
+  {
+    "_id": "53",
+    "titulo": "El regreso de las golondrinas (2022)",
+    "director": "Li Ruijun",
+    "puntuacion": 7.6,
+    "nacionalidad": "China"
+  },
+  {
+    "_id": "54",
+    "titulo": "La lista de Schindler (1993)",
+    "director": "Steven Spielberg",
+    "puntuacion": 8.6,
+    "nacionalidad": "Estados Unidos"
+  }
+]
