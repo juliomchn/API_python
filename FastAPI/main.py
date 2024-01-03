@@ -7,6 +7,8 @@ from routers import films, jwt_auth_users, basic_auth_users, films_db
 
 #Documentation
 #http://127.0.0.1:8000/docs
+# Documentación con Redocly: 
+# http://127.0.0.1:8000/redoc
 
 app = FastAPI()
 
